@@ -20,7 +20,7 @@
 //   GTMSessionFetcher* myFirstFetcher = [_fetcherService fetcherWithRequest:request1];
 //   GTMSessionFetcher* mySecondFetcher = [_fetcherService fetcherWithRequest:request2];
 
-#import "GTMSessionFetcher.h"
+#import "GTMSessionFetcherCore.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -49,7 +49,7 @@ extern NSString *const kGTMSessionFetcherServiceSessionKey;
 // not resurrected on an app relaunch, delayed fetchers would effectively be abandoned.
 @property(atomic, assign) NSUInteger maxRunningFetchersPerHost;
 
-// Properties to be applied to each fetcher; see GTMSessionFetcher.h for descriptions
+// Properties to be applied to each fetcher; see GTMSessionFetcherCore.h for descriptions
 @property(atomic, strong, nullable) NSURLSessionConfiguration *configuration;
 @property(atomic, copy, nullable) GTMSessionFetcherConfigurationBlock configurationBlock;
 @property(atomic, strong, nullable) NSHTTPCookieStorage *cookieStorage;
