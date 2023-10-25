@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		282E66162AE910770064762A /* GTMSessionFetcherCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C061584A0453B5CC3FE160 /* GTMSessionFetcherCore.m */; };
+		282E66182AE910770064762A /* GTMSessionFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DECC8FC8DC23FDB7FEBD62 /* GTMSessionFetcherLogging.m */; };
+		282E661A2AE910770064762A /* GTMSessionFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E782DDD4AE427242FBB8CA9 /* GTMSessionFetcherService.m */; };
+		282E661C2AE910770064762A /* GTMSessionUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4301E4C32F7EDFCA835100 /* GTMSessionUploadFetcher.m */; };
 		28AC131C2AE87A31008A0726 /* GTMSessionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 28AC131B2AE87A31008A0726 /* GTMSessionFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28AC13202AE87A99008A0726 /* GTMSessionFetcherCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B73FC1CD6665FEFFA8E13E7 /* GTMSessionFetcherCore.h */; };
-		28AC13212AE87A9C008A0726 /* GTMSessionFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D28219C166EB947CEA199C9 /* GTMSessionFetcherLogging.h */; };
-		28AC13222AE87A9E008A0726 /* GTMSessionFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = C782B0E4547BFCC156911612 /* GTMSessionFetcherService.h */; };
-		28AC13232AE87AB4008A0726 /* GTMSessionUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B0A875C5C5972173C799D8D /* GTMSessionUploadFetcher.h */; };
+		28AC13202AE87A99008A0726 /* GTMSessionFetcherCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B73FC1CD6665FEFFA8E13E7 /* GTMSessionFetcherCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28AC13212AE87A9C008A0726 /* GTMSessionFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D28219C166EB947CEA199C9 /* GTMSessionFetcherLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28AC13222AE87A9E008A0726 /* GTMSessionFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = C782B0E4547BFCC156911612 /* GTMSessionFetcherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28AC13232AE87AB4008A0726 /* GTMSessionUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B0A875C5C5972173C799D8D /* GTMSessionUploadFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -194,6 +198,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				282E66162AE910770064762A /* GTMSessionFetcherCore.m in Sources */,
+				282E66182AE910770064762A /* GTMSessionFetcherLogging.m in Sources */,
+				282E661A2AE910770064762A /* GTMSessionFetcherService.m in Sources */,
+				282E661C2AE910770064762A /* GTMSessionUploadFetcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

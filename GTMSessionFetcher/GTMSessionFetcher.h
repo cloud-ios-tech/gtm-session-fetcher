@@ -6,10 +6,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <GTMSessionFetcher/GTMSessionFetcherCore>
-#import <GTMSessionFetcher/GTMSessionFetcherLogging>
-#import <GTMSessionFetcher/GTMSessionFetcherService>
-#import <GTMSessionFetcher/GTMSessionUploadFetcher>
+#import <GTMSessionFetcher/GTMSessionFetcherCore.h>
+#import <GTMSessionFetcher/GTMSessionFetcherLogging.h>
+#import <GTMSessionFetcher/GTMSessionFetcherService.h>
+#import <GTMSessionFetcher/GTMSessionUploadFetcher.h>
 
 //! Project version number for GTMSessionFetcher.
 FOUNDATION_EXPORT double GTMSessionFetcherVersionNumber;
